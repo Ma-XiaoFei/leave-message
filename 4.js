@@ -9,6 +9,7 @@ let {
 } = require('./src/utils')
 const unify = require('./src/response');
 
+
 http.createServer(function (req, res) {
     let url = req.url;
     let dataJson = fs.readFileSync('./mock/data.json');
