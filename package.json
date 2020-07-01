@@ -1,0 +1,23 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ma-XiaoFei/server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ma-XiaoFei/server/issues"
+  },
+  "homepage": "https://github.com/Ma-XiaoFei/server#readme",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "bootstrap": "^3.4.1"
+  }
+}

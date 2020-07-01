@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/bootstrap.css">
+</head>
+
+<body>
+
+
+    <div class="row">
+        <div class="container" style="width: 600px;">
+            <div class="panel panel-primary ">
+                <div class="panel-heading">留言</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <form action="/message" method="POST">
+                            <div class="col-md-5">
+                                <label>
+                                    姓名：
+                                </label>
+                                <input required type="text" name="name" class="form-control input-md-4">
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <label>
+                                留言：
+                            </label>
+                            <input required type="text" name="message" class="form-control input-md-4">
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 30px;">
+                        <div class="col-md-4 pull-left">
+                            <button class="btn btn-success" type="submit">确定</button>
+                        </div>
+                    </div>
+                    </form>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
