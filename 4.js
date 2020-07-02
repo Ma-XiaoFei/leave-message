@@ -14,7 +14,6 @@ http.createServer(function (req, res) {
     let url = req.url;
     let dataJson = fs.readFileSync('./mock/data.json');
     dataJson = JSON.parse(dataJson);
-    console.log(dataJson)
     if (url.indexOf('static') === 1) {
         unify(req, res);
         return
