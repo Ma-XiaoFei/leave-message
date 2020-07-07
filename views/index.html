@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-family: sans-serif
+        }
+    </style>
+</head>
+
+<body>
+    {{ each data}}
+    <h3>view{{$value}}</h3>
+    {{/each}}
+
+
+
+    <script>
+        a = ''
+        fetch('http://127.0.0.1:8080').then(res => res.json()).then(res => {a = res[res.length-1];console.log(res)}).then(function(){
+            console.log(a)
+        })
+
+     
+       
+    </script>
+</body>
+
+</html>
