@@ -15,7 +15,7 @@ function initPage(url) {
                 let href = $(t).parent('a').attr('href');
                 let text = $(t).text();
                 if (text === '赞助商广告') return true;
-                let dirName = '/Images/' + text;
+                let dirName = './' + text;
                 fs.mkdirSync(dirName);
                 getContent(href, dirName);
             })
